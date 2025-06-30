@@ -1,0 +1,47 @@
+#year,
+#portfolio {
+  border-bottom: solid 3px;
+}
+
+#year {
+  text-align: right;
+  position: absolute;
+  top: 5vh;
+  left: 0;
+  font-family: 'Buda';
+  font-size: 37.5pt;
+  height: calc(37.5pt + 3px);
+  width: 17vw;
+}
+
+#intro {
+  font-family: 'Italiana', sans-serif;
+  font-size: 75pt;
+  position: absolute;
+  top: 35vh;
+  right: 0;
+  width: 60vw;
+}
+
+.translucent {
+  color: #25252560;
+}
+
+#intro>div {
+  text-align: left;
+  line-height: 90%;
+  height: 60pt;
+}
+
+#portfolio {
+  padding: 0 2vw 0 0;
+  width: 60vw;
+}
+
+#name {
+  font-family: 'Buda', serif;
+  font-size: 26.25pt;
+  line-height: 90%;
+  margin-left: 40pt;
+  vertical-align: middle;
+}

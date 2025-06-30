@@ -1,0 +1,75 @@
+#portfolioCarousel>img {
+  width: 20vw;
+  height: auto;
+  border-radius: 3%/2%;
+  position: absolute;
+  top: 5vh;
+  left: 40vw;
+}
+
+.portfolioCarouselButton,
+#backButton {
+  border: 1px solid;
+  border-radius: 50%;
+  width: 50pt;
+  height: 50pt;
+}
+
+.portfolioCarouselButton {
+  position: absolute;
+  bottom: 60vh;
+}
+
+#portfolioCarouselLeftButton {
+  left: 25vw;
+}
+
+#portfolioCarouselRightButton {
+  right: 25vw;
+}
+
+.portfolioCarouselMarkerset {
+  width: 50vw;
+  display: flex;
+  position: absolute;
+  bottom: 25vh;
+  left: 25vw;
+  flex-direction: row;
+  justify-content: center
+}
+
+.portfolioCarouselMarker {
+  height: 40pt;
+  width: 40pt;
+  border: none;
+  background-color: inherit;
+}
+
+.portfolioCarouselButton>svg,
+#backButton>svg {
+  fill: currentColor;
+  width: 30pt;
+  height: 30pt;
+  margin: auto;
+}
+
+.portfolioCarouselMarker>svg {
+  fill: currentColor;
+}
+
+#portfolioCarousel~p {
+  width: 40vw;
+  position: absolute;
+  bottom: 10vh;
+  left: 30vw;
+  text-align: center;
+  font-family: "Buda", serif;
+  font-size: 15pt;
+  line-height: 90%;
+}
+
+#backButton {
+  position: absolute;
+  bottom: 10vh;
+  left: 7vw;
+}

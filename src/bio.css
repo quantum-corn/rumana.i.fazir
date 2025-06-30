@@ -1,0 +1,120 @@
+#hello,
+#myWorks {
+  border-bottom: solid 3px;
+}
+
+#hello {
+  transform: rotate(270deg);
+  position: absolute;
+  top: 0;
+  left: -18vw;
+  width: 80vh;
+  height: 41pt;
+  font-family: 'Italiana', sans-serif;
+  font-size: 37.5pt;
+}
+
+#profileSection {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 87vw;
+  height: 43vh;
+  display: flex;
+  flex-direction: row;
+  column-gap: 5vw;
+}
+
+#profile {
+  border-bottom-left-radius: 8% 5%;
+  border-bottom-right-radius: 5%;
+  box-shadow: 0 3pt 3pt #a7a39c;
+}
+
+#profileInfo {
+  padding: 5vh 27vw 0 0;
+}
+
+#iAmRumana,
+#about {
+  font-family: "Buda", serif;
+}
+
+#iAmRumana {
+  font-size: 33.75pt;
+  padding-bottom: 4vh;
+}
+
+#about {
+  font-size: 15pt;
+  line-height: 15pt;
+  margin-bottom: 3vh;
+}
+
+a:has(> #workButton) {
+  margin-bottom: 2vh;
+}
+
+#workButton {
+  border-radius: 10%/50%;
+  font-family: 'Italiana', sans-serif;
+  font-size: 15pt;
+  padding: 0.5vh 2vw;
+  border: none;
+  box-shadow: 0 3pt 3pt #a7a39c;
+  background-color: #a7a39c;
+  margin-bottom: 2vh;
+}
+
+div:has(> .icons) {
+  display: flex;
+  column-gap: 1vw;
+  padding: 0.25vh 0;
+}
+
+.icons {
+  height: 18pt;
+  width: 18pt;
+  color: #a7a39c;
+}
+
+.icons ~ span {
+  font-family: 'Buda', serif;
+  font-size: 15pt;
+}
+
+#myWorks {
+  position: absolute;
+  top: 47vh;
+  right: 0;
+  width: 50vw;
+  font-family: 'Italiana', sans-serif;
+  font-size: 37.5pt;
+  height: 41pt
+}
+
+#portfolioSet {
+  position: absolute;
+  bottom: 10vh;
+  left: 5vw;
+  width: 90vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#portfolioSet>Button {
+  border: none;
+  background-color: #e6e6e6;
+  font-family: 'Buda', serif;
+  font-size: 17pt;
+}
+
+.thumbnailImage {
+  width: 15vw;
+  height: 20vh;
+  border-radius: 5%;
+}
+
+.label {
+  margin-top: 2vh;
+}
